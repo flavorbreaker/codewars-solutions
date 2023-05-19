@@ -1,0 +1,10 @@
+# https://www.codewars.com/kata/55908aad6620c066bc00002a/solutions/python
+# Program designed to take speed in kilometers per hour and convert to centimeters per second
+
+from math import *
+
+def cockroach_speed(s):
+    s *= 100000  #km/hr to cm/hr
+    s /= 3600    #cm/hr to cm/s
+    return floor(s)
+    
